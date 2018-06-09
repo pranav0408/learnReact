@@ -66,7 +66,8 @@ togglePersonHandler = () => {
         <Person 
          name={this.state.persons[2].name} 
          age={this.state.persons[2].age}
-         changed={this.nameChangedHandler}/>
+         changed={this.nameChangedHandler}>
+         You can change my name from below</Person>
         </div> : null
       }
       </div>
